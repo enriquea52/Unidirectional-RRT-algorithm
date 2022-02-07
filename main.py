@@ -15,7 +15,7 @@ if __name__ == "__main__":
     if len(sys.argv) !=9:
         print("You should provide the path to the csv environment: ")
         print("Provide the correct number of arguments (8) in the following format as str: ")
-        print("Path to env_X.csv (where X is the environment number), step, p, qstart_x, qstart_y, qgoal_x, qgoal_y")
+        print("Path to env_X.csv (where X is the environment number), K, step, p, qstart_x, qstart_y, qgoal_x, qgoal_y")
         exit()
     else:
         path_env = sys.argv[1]
