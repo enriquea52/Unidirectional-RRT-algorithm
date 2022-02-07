@@ -1,0 +1,10 @@
+*.pdf
+*.zip
+env_*/
+__pycache__
+visibility*
+environments/map0.png
+environments/map1.png
+environments/map2.png
+environments/map3.png
+snippet.py
